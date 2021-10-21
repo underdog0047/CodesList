@@ -9,13 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let foo = "Hello World"
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    var hello = "yes"
     
 
 }
