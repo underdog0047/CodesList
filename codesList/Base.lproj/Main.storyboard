@@ -76,6 +76,7 @@
                         <constraints>
                             <constraint firstItem="H0j-on-Z6d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0Vj-Zy-gUY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="F9Z-OT-nUQ" secondAttribute="bottom" constant="250" id="1wB-ff-B9n"/>
+                            <constraint firstItem="H0j-on-Z6d" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="CA9-a9-zBC"/>
                             <constraint firstItem="F9Z-OT-nUQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="V1P-uX-T0d"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F9Z-OT-nUQ" secondAttribute="trailing" constant="50" id="bxE-zK-Wp3"/>
                             <constraint firstItem="F9Z-OT-nUQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="h5i-5J-cZx"/>
