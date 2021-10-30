@@ -43,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B2BC46272D150100A7E22C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				46B2BC42272CE95400A7E22C /* Favorites.storyboard */,
+				B7F6179C2721CB8400CD3BBE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		46B2BC47272D152F00A7E22C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6179A2721CB8400CD3BBE /* StartScreen.swift */,
+				46B2BC44272CEA1600A7E22C /* FavoritesScreen.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		B7F6178A2721CB8400CD3BBE = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +83,8 @@
 			children = (
 				B7F617962721CB8400CD3BBE /* AppDelegate.swift */,
 				B7F617982721CB8400CD3BBE /* SceneDelegate.swift */,
-				B7F6179A2721CB8400CD3BBE /* StartScreen.swift */,
-				B7F6179C2721CB8400CD3BBE /* Main.storyboard */,
-				46B2BC42272CE95400A7E22C /* Favorites.storyboard */,
-				46B2BC44272CEA1600A7E22C /* FavoritesScreen.swift */,
+				46B2BC47272D152F00A7E22C /* View Controllers */,
+				46B2BC46272D150100A7E22C /* Storyboards */,
 				B7F6179F2721CB8500CD3BBE /* Assets.xcassets */,
 				B7F617A12721CB8500CD3BBE /* LaunchScreen.storyboard */,
 				B7F617A42721CB8500CD3BBE /* Info.plist */,

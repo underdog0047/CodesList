@@ -10,6 +10,7 @@ import UIKit
 
 class FavoritesScreen: UIViewController {
     
+    @IBOutlet weak var message: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
