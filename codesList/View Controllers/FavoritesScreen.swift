@@ -11,6 +11,7 @@ import UIKit
 class FavoritesScreen: UIViewController {
     
     @IBOutlet weak var message: UIImageView!
+    @IBOutlet weak var favTable: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +20,6 @@ class FavoritesScreen: UIViewController {
         
         
     }
-    
-    
-    
-    
-    
     
     
     private func initBackgroundColor() {
@@ -43,5 +39,4 @@ class FavoritesScreen: UIViewController {
         view.layer.insertSublayer(gradientLayer, at: 0)
         
     }
-    
 }
