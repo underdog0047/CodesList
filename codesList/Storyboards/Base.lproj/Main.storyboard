@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="84"/>
         </scene>
-        <!--favVC-->
+        <!--homeVC-->
         <scene sceneID="c89-rc-Zz9">
             <objects>
-                <viewControllerPlaceholder storyboardName="Favorites" referencedIdentifier="favVC" id="I2S-s6-y1B" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="HomeScreen" referencedIdentifier="homeVC" id="I2S-s6-y1B" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="n0Z-FB-Wz1"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ae5-VH-20z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
