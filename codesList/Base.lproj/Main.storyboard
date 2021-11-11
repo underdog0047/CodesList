@@ -37,6 +37,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="WUe-oI-qnr" kind="show" id="mr9-sh-9Ly"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -66,6 +69,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20" y="84"/>
+        </scene>
+        <!--homescreen-->
+        <scene sceneID="5TD-V4-xIm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="homescreen" referencedIdentifier="homescreen" id="WUe-oI-qnr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8ae-HV-jyv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcS-1s-UyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="1"/>
         </scene>
     </scenes>
     <resources>
