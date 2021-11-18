@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import SwiftUI
+
 
 class HomeScreen: UIViewController {
-
+    @IBOutlet var favoritesStack: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         initBackgroundColor(view)
+        
     }
+    
+    
     
 
     /*
