@@ -26,18 +26,31 @@ func initBackgroundColor(_ view: UIView) {
 }
 
 
-class FavoritesScreen: UIViewController {
+class FavoritesScreen: UIViewController, UITableViewDataSource {
     
-    @IBOutlet weak var message: UIImageView!
+    @IBOutlet var favoritesTable: UITableView!
+    
+//    var categoryData = [String]()
+    var categoryData = Array(repeating: "Item", count: 5)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         initBackgroundColor(view)
         
-        
+        favoritesTable.register(UITableViewCell.self, forCellReuseIdentifier: "TableViewCell")
+        favoritesTable.dataSource = self
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return categoryData.count
+    }
     
-    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = favoritesTable.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath)
+        
+        cell.textLabel?.text = self.categoryData[indexPath.row]
+        return cell
+    }
 }
+
+

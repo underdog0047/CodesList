@@ -22,11 +22,22 @@
                     </tabBar>
                     <connections>
                         <segue destination="Y6W-OH-hqX" kind="relationship" relationship="viewControllers" id="3tZ-SA-d3y"/>
+                        <segue destination="2Ar-IS-f56" kind="relationship" relationship="viewControllers" id="SbZ-fj-lFV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOq-ge-vLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="13.043478260869566" y="83.705357142857139"/>
+        </scene>
+        <!--favVC-->
+        <scene sceneID="y3b-s1-cZd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Favorites" referencedIdentifier="favVC" id="2Ar-IS-f56" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="star" catalog="system" id="bBk-zz-2kp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFG-ew-Zc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="657"/>
         </scene>
         <!--Home-->
         <scene sceneID="s0d-6b-0kx">
