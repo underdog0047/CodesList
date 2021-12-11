@@ -14,7 +14,7 @@ class HomeScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        initBackgroundColor(view)
+        Helper.initBackgroundColor(view)
     }
     
     
