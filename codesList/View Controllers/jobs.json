@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Java Application API Builder",
+        "description": "We need someone to build a way for our Java application to interact and use data from an API we use for our services.",
+        "employerName": "SomeCompany123",
+        "category": "freelance"
+    },
+    {
+        "title": "Server Admin",
+        "description": "Are you familiar with server and different scripting languages? If so, apply to a company and help us build, deploy, and maintain servers for our company with numerous benefits! And a work environment you'll love!",
+        "employerName": "TooGoodToBeTrue345",
+        "category": "full"
+    },
+    {
+        "title": "Satellite Date Position",
+        "description": "I need someone to to build a script/application that will let allow me to enter/pick a date and location. Which will be tell me how many satellites will be over that position at that time.",
+        "employerName": "RegularJoe848",
+        "category": "freelance"
+    },
+    {
+        "title": "Swift IOS Internship",
+        "description": "We are offering an internship position for those looking to expand their knowledge in the IOS development field.",
+        "employerName": "SwiftCompany2038",
+        "category": "internship"
+    }
+]

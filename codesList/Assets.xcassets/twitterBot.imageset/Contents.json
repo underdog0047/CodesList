@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "messageIcon.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +9,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "twitterBot.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

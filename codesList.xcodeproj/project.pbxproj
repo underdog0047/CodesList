@@ -10,6 +10,14 @@
 		462BA907273D92A200B349A2 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462BA906273D92A200B349A2 /* HomeScreen.storyboard */; };
 		462BA909273D9C1E00B349A2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BA908273D9C1E00B349A2 /* HomeScreen.swift */; };
 		462CD1A0276483B000A0E6C1 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CD19F276483B000A0E6C1 /* ViewHelpers.swift */; };
+		469576322767CEE0007E471B /* JobListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469576312767CEE0007E471B /* JobListCell.swift */; };
+		469576342767D20A007E471B /* JobListingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469576332767D20A007E471B /* JobListingCollectionViewController.swift */; };
+		469576362767D3DA007E471B /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469576352767D3DA007E471B /* Job.swift */; };
+		469576382767D5B0007E471B /* jobs.json in Resources */ = {isa = PBXBuildFile; fileRef = 469576372767D5B0007E471B /* jobs.json */; };
+		4695763A2767DAEA007E471B /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469576392767DAEA007E471B /* Decode.swift */; };
+		4695763C2767FD6B007E471B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4695763B2767FD6B007E471B /* Profile.storyboard */; };
+		4695763E2767FF8B007E471B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4695763D2767FF8B007E471B /* ProfileViewController.swift */; };
+		4695764027680E15007E471B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4695763F27680E15007E471B /* ProfileTableViewController.swift */; };
 		46B2BC43272CE95400A7E22C /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B2BC42272CE95400A7E22C /* Favorites.storyboard */; };
 		46B2BC45272CEA1600A7E22C /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2BC44272CEA1600A7E22C /* FavoritesScreen.swift */; };
 		46D3119E2721D40900EC45C7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46D3119D2721D40900EC45C7 /* .gitignore */; };
@@ -25,6 +33,14 @@
 		462BA906273D92A200B349A2 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		462BA908273D9C1E00B349A2 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreen.swift; path = codesList/Storyboards/HomeScreen.swift; sourceTree = SOURCE_ROOT; };
 		462CD19F276483B000A0E6C1 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		469576312767CEE0007E471B /* JobListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListCell.swift; sourceTree = "<group>"; };
+		469576332767D20A007E471B /* JobListingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingCollectionViewController.swift; sourceTree = "<group>"; };
+		469576352767D3DA007E471B /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		469576372767D5B0007E471B /* jobs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = jobs.json; path = "codesList/View Controllers/jobs.json"; sourceTree = SOURCE_ROOT; };
+		469576392767DAEA007E471B /* Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = "codesList/View Controllers/Decode.swift"; sourceTree = SOURCE_ROOT; };
+		4695763B2767FD6B007E471B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4695763D2767FF8B007E471B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = codesList/Storyboards/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		4695763F27680E15007E471B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		46B2BC42272CE95400A7E22C /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 		46B2BC44272CEA1600A7E22C /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
 		46D3119D2721D40900EC45C7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -52,7 +68,10 @@
 		462BA90A273DA76C00B349A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				469576392767DAEA007E471B /* Decode.swift */,
+				469576372767D5B0007E471B /* jobs.json */,
 				462CD19F276483B000A0E6C1 /* ViewHelpers.swift */,
+				469576352767D3DA007E471B /* Job.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -63,6 +82,7 @@
 				46B2BC42272CE95400A7E22C /* Favorites.storyboard */,
 				B7F6179C2721CB8400CD3BBE /* Main.storyboard */,
 				462BA906273D92A200B349A2 /* HomeScreen.storyboard */,
+				4695763B2767FD6B007E471B /* Profile.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -70,7 +90,11 @@
 		46B2BC47272D152F00A7E22C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4695763F27680E15007E471B /* ProfileTableViewController.swift */,
+				4695763D2767FF8B007E471B /* ProfileViewController.swift */,
 				462BA908273D9C1E00B349A2 /* HomeScreen.swift */,
+				469576312767CEE0007E471B /* JobListCell.swift */,
+				469576332767D20A007E471B /* JobListingCollectionViewController.swift */,
 				B7F6179A2721CB8400CD3BBE /* StartScreen.swift */,
 				46B2BC44272CEA1600A7E22C /* FavoritesScreen.swift */,
 			);
@@ -166,7 +190,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469576382767D5B0007E471B /* jobs.json in Resources */,
 				46D3119E2721D40900EC45C7 /* .gitignore in Resources */,
+				4695763C2767FD6B007E471B /* Profile.storyboard in Resources */,
 				B7F617A32721CB8500CD3BBE /* LaunchScreen.storyboard in Resources */,
 				B7F617A02721CB8500CD3BBE /* Assets.xcassets in Resources */,
 				462BA907273D92A200B349A2 /* HomeScreen.storyboard in Resources */,
@@ -184,6 +210,12 @@
 			files = (
 				462CD1A0276483B000A0E6C1 /* ViewHelpers.swift in Sources */,
 				B7F6179B2721CB8400CD3BBE /* StartScreen.swift in Sources */,
+				469576322767CEE0007E471B /* JobListCell.swift in Sources */,
+				469576342767D20A007E471B /* JobListingCollectionViewController.swift in Sources */,
+				469576362767D3DA007E471B /* Job.swift in Sources */,
+				4695763A2767DAEA007E471B /* Decode.swift in Sources */,
+				4695764027680E15007E471B /* ProfileTableViewController.swift in Sources */,
+				4695763E2767FF8B007E471B /* ProfileViewController.swift in Sources */,
 				462BA909273D9C1E00B349A2 /* HomeScreen.swift in Sources */,
 				B7F617972721CB8400CD3BBE /* AppDelegate.swift in Sources */,
 				B7F617992721CB8400CD3BBE /* SceneDelegate.swift in Sources */,

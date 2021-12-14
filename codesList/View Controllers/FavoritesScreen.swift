@@ -55,6 +55,8 @@ class FavoritesScreen: UIViewController, UITableViewDataSource, UITableViewDeleg
      *                            TABLE VIEW FUNCTIONS                             *
      *=============================================================================*/
     
+    // MARK: - Table Functions
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categoryData.count
