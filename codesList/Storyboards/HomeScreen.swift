@@ -9,12 +9,22 @@ import UIKit
 import SwiftUI
 
 
+enum PageOptions {
+    case search, messages
+}
+
+
+
 class HomeScreen: UIViewController {
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         Helper.initBackgroundColor(view)
+        
+        self.navigationItem.title = "Welcome, \(Constants.currentUser!.fullName)"
+        
     }
     
     
@@ -29,5 +39,9 @@ class HomeScreen: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @objc func changeScreen(_ sender: UIBarButtonItem) {
+        
+    }
 
 }

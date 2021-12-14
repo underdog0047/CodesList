@@ -23,6 +23,8 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         Helper.initBackgroundColor(self.view)
         
+        usernameLabel.text = Constants.currentUser!.username
+        
         optionsTable.delegate = self
         optionsTable.dataSource = self
         optionsTable.sectionHeaderHeight = 35
